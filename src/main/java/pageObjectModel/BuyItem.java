@@ -13,5 +13,12 @@ public class BuyItem extends AbstractClass{
     public void clickonthsirts(){
      clickOnFunctionalities(Tshirts);
     }
-//.sf-menu li.sfHoverForce a
+
+//    @FindBy(xpath = " //*[@id=\"block_top_menu\"]/ul/li[3]")
+//    private WebElement more;
+//
+//    public void clickonmore(){
+//        clickOnFunctionalities(more);
+//    }
+
 }

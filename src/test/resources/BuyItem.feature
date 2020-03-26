@@ -9,8 +9,9 @@ Feature: Buy Item
 
   Scenario: Buying an item
     And Click on  the T-SHIRTS
-    And Click on more button
-    And choose the size
-    And choose the color
+    And Click on list
+    And click in wishlist
+    And click on pop up
     And  click on Add to cart button
-    Then verify the text
+    And click on proceed to check out button
+    Then remove item
