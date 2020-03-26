@@ -47,12 +47,12 @@ public class BuyItemSteps extends AbstractClass {
 
     @Given("^click on proceed to check out button$")
     public void click_on_proceed_to_check_out_button() {
-
+        buyItem.clickOnProceedToChechout();
     }
 
     @Then("^remove item$")
     public void remove_item() {
-
+       buyItem.remove();
     }
 
 }

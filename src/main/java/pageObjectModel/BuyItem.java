@@ -42,4 +42,18 @@ public class BuyItem extends AbstractClass{
         clickOnFunctionalities(addtocart);
     }
 
+    @FindBy(css = "a[title='Proceed to checkout']")
+    private WebElement proceedToCheckoutButton;
+
+    public void clickOnProceedToChechout() {
+        clickOnFunctionalities(proceedToCheckoutButton);
+    }
+
+    @FindBy(xpath = "//i[@class='icon-trash']")
+    private WebElement removebutton;
+
+    public void remove() {
+        clickOnFunctionalities(removebutton);
+    }
+
 }
