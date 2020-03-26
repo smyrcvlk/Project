@@ -21,29 +21,35 @@ public class BuyItemSteps extends AbstractClass {
 
         buyItem.clickonthsirts();
     }
-
-    @Given("^Click on more button$")
-    public void click_on_more_button() {
-
-    }
-
-    @Given("^choose the size$")
-    public void choose_the_size() {
+    @Given("^Click on list$")
+    public void click_on_list() {
 
     }
 
-    @Given("^choose the color$")
-    public void choose_the_color() {
+    @Given("^click in wishlist$")
+    public void click_in_wishlist() {
 
     }
+
+    @Given("^click on pop up$")
+    public void click_on_pop_up() {
+
+    }
+
 
     @Given("^click on Add to cart button$")
     public void click_on_Add_to_cart_button() {
 
     }
 
-    @Then("^verify the text$")
-    public void verify_the_text() {
+    @Given("^click on proceed to check out button$")
+    public void click_on_proceed_to_check_out_button() {
 
     }
+
+    @Then("^remove item$")
+    public void remove_item() {
+
+    }
+
 }
