@@ -13,3 +13,8 @@ Feature: Order history
     Then Click on I confirm my order button
 
     Scenario: Order history
+      And click on your name
+      And click on order history and details
+
+
+
