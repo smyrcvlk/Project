@@ -10,12 +10,13 @@ public class OrderHistorySteps extends AbstractClass {
 
     @Given("^click on your name$")
     public void click_on_your_name() {
-
+       orderHistoryPage.clickonname();
     }
 
     @Given("^click on order history and details$")
     public void click_on_order_history_and_details() {
 
+        orderHistoryPage.clickorderhistory();
     }
 
 
