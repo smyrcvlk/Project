@@ -1,4 +1,4 @@
-Feature: Buy Item
+Feature: Order
   Background:
   Scenario: creating account
 
